@@ -3,6 +3,7 @@ title: Patterns and Motifs
 layout: about
 permalink: /patterns.html
 ---
+{% include feature/jumbotron.html objectid="eadata011" heading=page.title text=false %} 
 
 # Patterns and Motifs
 Riza Quli Khan Hidayat was a 19th century Persian writer who was sent as a representative of the Qajar dynasty to reclaim the steppes between the Caspian Sea and Oxus River, which fell between modern day Tajikistan and Uzbekistan (Khazeni 2010, 592). In his travels, he mapped the path of the Oxus river that brought cultivation in the steppes and wrote, “During winters, the river is frozen over, allowing caravans to pass over it, while the water flows beneath the ice" (Khazeni 2010, 599).
@@ -16,7 +17,7 @@ The Philadelphia Museum of Art exhibition titled “An Enduring Motif: The Pomeg
 John Gillow’s Textiles of the Islamic World offers insight on the various styles of textiles around the Islamic world. In his findings, Tajikistan textiles, especially prayer cloths depicting a “Mihrab” (an arched wall in a Mosque pointing to the direction of Mecca) often used the pomegranate motif to symbolize happiness and fertility (Gillow 2010, 212). In these representations, the pomegranate is illustrated as a flat circle, given the illusion of pointed ends through the surrounding vine-like motifs and the stem typically placed at the bottom. The enduring presence of the pomegranate amongst cultures both within and outside of the Islamic world represent a notion of shared ideologies. Prior to the Islamic world’s symbolic depictions of the pomegranate, the same fruit was found buried in the tombs of the Ancient Egyptians who believed the pomegranate possessed the ability to help the deceased journey into a second life through resurrection (Blum et al.). The purpose of identifying these separate depictions of the pomegranate is to illustrate the enduring symbolism of the fruit throughout time and space where, even if adopted from another culture, the motif then becomes constructed with its own meaning in a new cultural context. 
 
 ## The Garden of Paradise / Jannat
-{% include feature/image.html objectid="eadata012" width="75" %}
+{% include feature/image.html objectid="eadata012"  %}
 
 
 "Then as to those who believed and did good, they shall be made happy in a beautiful garden.(30:15)"
