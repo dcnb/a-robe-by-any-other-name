@@ -3,31 +3,32 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="eadata012" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;Introduction;Where it began" %}
 
-## About CollectionBuilder CSV
+# A Robe and Its Stories
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+This exhibit focuses on the Aga Khan Museum's **PS24 Robe** and aims to identify its thematic commonalities, possible origins in Central Asia, and broader lessons learned through investigating the artefact in a digital context.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+A brief context of the exhibit: Titled, *"Texts and Textiles: A Robe and its Stories"*, this exhibit examines the material stories of a robe "woven from wool, embroidered with twining blossoms and lively story tableaus featured at the Aga Khan Museum in Toronto. Created in Central Asia in the 20th century, this garment (Aga Khan Museum, PS24) tells stories about King Solomon and Haroun al Rashid, about star-crossed lovers and seekers after wisdom." (Professor Alexandra Bolintineanu, University of Toronto)
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+This exhibit is a reproduction of my [2022 exhibit](https://spatial-humanities.library.utoronto.ca/exhibits/show/textsandtextiles) hosted on Omeka.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Introduction
+The 20th century Central Asian robe displayed in Toronto’s Aga Khan Museum, depicts four distinct stories that serve as a storybook for the wearer and its observers. The robe’s origins are believed to come from the general area of Central Asia although it still remains unknown where exactly the textile might have come from because of the similarities in weaving techniques and fashion styles among nomads and settlers along the Silk Roads. **Although the robe contains four embroidered stories, I argue that there is a fifth story, hidden within the fibres of the robe: a multi-layered story of exchanges.**
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+### Where it began
+{% include feature/image.html objectid="eadata001" width="75" %}
+In Professor Bolintineanu’s course titled, “DHU337: Historical Artifacts in the Digital Age: Books along the Silk Roads”, students were invited to choose an artefact from the Aga Khan Museum’s eponymous exhibit and create a digital storymap to examine its history, related artefacts and our own personal responses to help tell the broader story of the artefact.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+The PS24 robe stuck out as an object that could be read as a book worn on the body, one function likely allowing for the sharing of stories with anyone who encountered the wearer of the robe. The mystery of the robe begins with its arrival to the Aga Khan Museum, where Dr. Filiz Çakır Phillip recalled that the robe arrived wrapped and packaged in a Louis Vuitton suitcase from the Aga Khan’s wife (Çakır Phillip, 2022). Displayed in the Hidden Stories exhibit during 2021-2022, the 20th century Central Asian robe appears as an almost-modern item, with its structure completely intact. Its mysterious beginning with its appearance at the Aga Khan Museum only encourages the questions of:  *“where did the robe come from and who wore it?”*
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+However, as tempting as it is to answer these questions, this exhibit will refrain from looking at the robe as a singular object with a singular origin story, and instead, examine the fifth story of the robe: the robe as an object of shared origins.  The exhibit will focus on a reflection of conclusions drawn from the symbolic and illustrative nature of the robe, and as well as the preservation tactics that museums instill in their motivation to keep storytelling traditions alive.
+
