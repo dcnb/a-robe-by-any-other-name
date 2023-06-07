@@ -26,6 +26,7 @@ The 20th century Central Asian robe displayed in Toronto’s Aga Khan Museum, de
 
 ### Where it began
 {% include feature/image.html objectid="eadata001" width="75" %}
+{% include feature/image.html url="https://agakhanmuseum.org/dataset-images/9olebpfe20v-31e00aaa-4528-482d-8efb-6c6f5b4c6e63/PS24.back_2021_HERO.jpg" width="75" %}
 In Professor Bolintineanu’s course titled, “DHU337: Historical Artifacts in the Digital Age: Books along the Silk Roads”, students were invited to choose an artefact from the Aga Khan Museum’s eponymous exhibit and create a digital storymap to examine its history, related artefacts and our own personal responses to help tell the broader story of the artefact.
 
 The PS24 robe stuck out as an object that could be read as a book worn on the body, one function likely allowing for the sharing of stories with anyone who encountered the wearer of the robe. The mystery of the robe begins with its arrival to the Aga Khan Museum, where Dr. Filiz Çakır Phillip recalled that the robe arrived wrapped and packaged in a Louis Vuitton suitcase from the Aga Khan’s wife (Çakır Phillip, 2022). Displayed in the Hidden Stories exhibit during 2021-2022, the 20th century Central Asian robe appears as an almost-modern item, with its structure completely intact. Its mysterious beginning with its appearance at the Aga Khan Museum only encourages the questions of:  *“where did the robe come from and who wore it?”*
