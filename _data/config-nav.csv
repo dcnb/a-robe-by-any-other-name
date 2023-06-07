@@ -1,5 +1,8 @@
 display_name,stub,dropdown_parent
 Home,/,
+Chapters,,
+    Textiles as Text, /textilesastext,Chapters
+    Patterns and Motifs, /patterns,Chapters
 Browse,/browse.html,
 Subjects,/subjects.html,
 Locations,/locations.html,
