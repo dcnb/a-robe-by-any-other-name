@@ -3,6 +3,7 @@ title: Textiles as Texts
 layout: about
 permalink: /textilesastext.html
 ---
+{% include feature/jumbotron.html objectid="eadata010" heading=page.title text=false %} 
 
 # Reading Textiles as Text
  *“What shall be done unto a man whom the king delighteth to honor?” “Let the royal apparel be brought which the king useth to wear, and a horse that the king rideth upon and the crown royal which is set upon his head” (Esther 6:6-8)*
