@@ -1,14 +1,14 @@
 display_name,stub,dropdown_parent
 Home,/,
 Chapters,,
-    Textiles as Text, /textilesastext,Chapters
-    Patterns and Motifs, /patterns,Chapters
-    The Robe as a Storybook, /storybook,Chapters
+Textiles as Text,/textilesastext,Chapters
+Patterns and Motifs,/patterns,Chapters
+The Robe as a Storybook,/storybook,Chapters
 Visualizations,,
-    Subjects, /subjects.html,Visualizations
-    Locations, /locations.html,Visualizations
-    Map, /map.html,Visualizations
-    Timeline,/timeline.html,Visualizations
+Subjects,/subjects.html,Visualizations
+Locations,/locations.html,Visualizations
+Map,/map.html,Visualizations
+Timeline,/timeline.html,Visualizations
 Browse,/browse.html,
 Data,/data.html,
 About,/about.html,

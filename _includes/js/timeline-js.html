@@ -7,18 +7,12 @@
 function makeCard(obj) {
     // find images and link
     // find item link
-    var itemHref = `{{ '/item.html' | relative_url }}?id=${obj.objectid}`;
+    var itemHref = `{{ '/items/' | relative_url }}${obj.objectid}.html`;
     // find images
     var thumbSrc;
     // add images or thumb for objects based on format
-    if(obj.youtubeid) {
-        thumbSrc = 'https://img.youtube.com/vi/' + obj.youtubeid + '/hqdefault.jpg';
-    } else if (obj.format.includes("image")) {
-        if(obj.filename.includes("/")) { 
-            thumbSrc = obj.filename; 
-        } else { 
-            thumbSrc = "{{ '/objects/' | relative_url }}" + obj.filename; 
-        }
+    if (obj.image_small) {
+            thumbSrc = obj.image_small;   
     } else if (obj.format.includes("audio")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-audio }}.svg';
     } else if (obj.format.includes("video")) {
@@ -115,7 +109,7 @@ function pageInit(items) {
 /* add items */
 var items = [
     {% for i in items %}
-    { "title":{{ i.title | strip | jsonify }}, "date": {{ i.date | times: 1 }}, "format":{% if i.format %}{{ i.format | jsonify }}{% else %}""{% endif %}, {% if i.youtubeid %} "youtube": {{ i.youtubeid | jsonify }}, {% endif %}{% if  i.filename contains '/' %}"filename": "{{ i.filename }}" {% else %}"filename":"{{ '/objects/' | relative_url | append: i.filename }}"{% endif %}, "objectid":{{ i.objectid | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+    { "title":{{ i.title | strip | jsonify }}, "date": {{ i.date | times: 1 }}, "format":{% if i.format %}{{ i.format | jsonify }}{% else %}""{% endif %}, {% if i.youtubeid %} "youtube": {{ i.youtubeid | jsonify }}, {% endif %}{% if  i.filename contains '/' %}"filename": "{{ i.image_small }}" {% else %}"filename":"{{ '/objects/' | relative_url | append: i.filename }}"{% endif %}, "image_small": {{i.image_thumb | relative_url | jsonify }}, "objectid":{{ i.objectid | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
 ];
 /* init timeline */ 
 pageInit(items);
